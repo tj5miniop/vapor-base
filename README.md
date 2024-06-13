@@ -1,8 +1,6 @@
 # vapor-base &nbsp; [![build-ublue](https://github.com/tj5miniop/vapor-base/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/vapor-base/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
-After setup, it is recommended you update this README to describe your custom image.
+Base Repo for Vapor OS immutable desktop - This repo will include images for both KDE and GNOME as well as nvidia specific images as well. 
 
 ## Installation
 
