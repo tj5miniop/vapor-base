@@ -22,6 +22,13 @@ modules:
     install:
       # - micro
       # - starship
+      - edk2-ovmf
+      - podman
+      - distrobox
+      - qemu
+      - virt-manager
+      - flatpak
+      - fastfetch
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -36,6 +43,16 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
+         - org.mozilla.firefox
+         - org.kde.ktorrent
+         - com.vscodium.codium
+         - org.gnome.World.PikaBackup
+         - io.github.dvlv.boxbuddyrs
+         - io.github.shiftey.Desktop
+         - io.github.fastrizwaan.WineZGUI
+         - com.github.tchx84.Flatseal
+         - net.davidotek.pupgui2
+         - com.discordapp.Discord
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
