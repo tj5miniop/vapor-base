@@ -30,6 +30,7 @@ modules:
       - flatpak
       - fastfetch
     remove:
+    - gnome-terminal
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
@@ -49,10 +50,10 @@ modules:
          - org.gnome.World.PikaBackup
          - io.github.dvlv.boxbuddyrs
          - io.github.shiftey.Desktop
-         - io.github.fastrizwaan.WineZGUI
          - com.github.tchx84.Flatseal
          - net.davidotek.pupgui2
          - com.discordapp.Discord
+         - app.devsuite.Ptyxis
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
