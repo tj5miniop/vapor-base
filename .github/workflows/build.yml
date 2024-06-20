@@ -23,7 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - recipe.yml
-          - bluefin-remix.yml
+         # - bluefin-remix.yml
          # - kde.yml
     steps:
        # the build is fully handled by the reusable github action
