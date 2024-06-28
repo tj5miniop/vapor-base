@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: seabreeze-gamer-nvidia
+name: vapor-nvidia
 # description will be included in the image's metadata
 description: A tweaked image for GAMERS on NVIDIA GPU. Based on Bazzite OS. Uses the latest branch to deliver bleeding edge software with immutability
 
