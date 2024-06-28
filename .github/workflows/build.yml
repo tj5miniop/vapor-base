@@ -23,6 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - recipe.yml
+          - seabreeze-gamer-nvidia.yml
          # - bluefin-remix.yml
          # - kde.yml
     steps:
